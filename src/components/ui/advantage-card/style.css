@@ -1,0 +1,27 @@
+.advantage-card__figure {
+  margin: 0;
+  padding: 20px;
+  background-color: #e1edce;
+  max-width: 540px;
+  box-sizing: border-box;
+  min-height: 197px;
+}
+
+.advantage-card__quality-wrapper {
+  position: relative;
+  padding-left: 72px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.advantage-card__icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  left: 0;
+}
+
+.advantage-card__text {
+  margin: 0;
+}
