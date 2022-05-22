@@ -1,14 +1,16 @@
-import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
 
-import App from "./components/app/app";
+import App from "/src/components/app/app";
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./theme/default";
 
 const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <ThemeProvider theme={defaultTheme}>
-    <App />
-  </ThemeProvider>
+ReactDOM.render(
+  <StrictMode>
+    <ThemeProvider theme={defaultTheme}>
+      <App />
+    </ThemeProvider>
+  </StrictMode>,
+  rootElement
 );
