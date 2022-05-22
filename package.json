@@ -2,9 +2,13 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@swiper/core": "0.0.21",
     "customize-cra": "1.0.0",
     "react": "18.0.0",
     "react-app-rewired": "2.2.1",
@@ -14,7 +18,8 @@
     "sass": "1.51.0",
     "src": "1.1.2",
     "styled-components": "5.3.5",
-    "swiper": "8.1.4"
+    "swiper": "8.1.4",
+    "swiper-react": "1.0.0"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -26,5 +31,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
